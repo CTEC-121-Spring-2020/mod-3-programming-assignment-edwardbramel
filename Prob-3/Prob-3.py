@@ -6,7 +6,23 @@
 
 
 def letterGrade(score):
-    # your code here
+    if score == 5:
+        grade = "A"
+
+    if score == 4:
+        grade = "B"
+
+    if score == 3:
+        grade = "C"
+
+    if score == 2:
+        grade = "D"
+
+    if score == 1:
+        grade = "F"
+
+    if score == 0:
+        grade = "F"
 
     return grade
 

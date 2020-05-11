@@ -12,11 +12,12 @@ output: return shipping cost
 
 
 def shippingCost(orderSubTotal):
-    totalCost = input("what is the total coast?: ")
-    if totalCost > 10.00:
-        print("the shipping cost is 0")
+
+    if orderSubTotal < 10:
+        shippingCost = 2.99
     else:
-        print("the shipping cost is 2.99")
+        orderSubTotal > 10
+        shippingCost = 0
 
     return shippingCost
 
