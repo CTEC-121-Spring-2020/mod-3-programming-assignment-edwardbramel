@@ -12,11 +12,8 @@ output: return shipping cost
 
 
 def shippingCost(orderSubTotal):
-
-    if orderSubTotal < 10:
-        shippingCost = 2.99
-    else:
-        orderSubTotal > 10
+    shippingCost = 2.99
+    if orderSubTotal >= 10:
         shippingCost = 0
 
     return shippingCost
@@ -25,6 +22,7 @@ def shippingCost(orderSubTotal):
 def unitTest():
     print("Shipping cost if subtotal < 10.00:\t", shippingCost(5.99))
     # enter additional test code here
+    print("shi[[ing cost if subtotal < 10.00:\t", shippingCost(14.02))
 
 
 if __name__ == "__main__":
