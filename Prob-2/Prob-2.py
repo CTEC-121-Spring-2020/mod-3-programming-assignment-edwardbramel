@@ -5,7 +5,7 @@
 # Edward Lamanna
 
 '''
-Your IPO comment goes here
+take user input for name = employees name, wage = hour much they make an hour, and hours = how many hours they work in a week
 '''
 
 
