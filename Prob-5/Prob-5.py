@@ -6,15 +6,13 @@
 
 
 def main():
-    """
-    x = eval(2)
-    print("x:", x)
-    """
-    try:
+     try:
         eval(2)
         print("x:", x)
+    except TypeError:
+        exit
     except:
-        print("Error does not work")
-
+        print("exiting")
+        exit
 
 main()
